@@ -1,0 +1,108 @@
+/* element styles */
+
+body {
+  background-color: #eae5e5;
+  font-family: initial;
+}
+img {
+    border-radius: 25px;
+}
+ul {
+  padding-left: 5rem;
+}
+li {
+  font-weight: bold;
+  padding-top: 0.5rem;
+}
+
+/* class styles */
+
+/* Common Page Header (banner, site name and main menu) */
+.banner {
+  display: flex;
+  justify-content: center;
+}
+.banner div {
+  flex-basis: 65rem;
+}
+.banner img {
+  width: 100%;
+}
+h1.header {
+  text-align: center;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+}
+.menu div {
+  flex-basis: 20rem;
+  background-color: #6f9578;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: large;
+}
+.menu div:hover {
+  background-color: #627465;
+}
+.menu a {
+  color: white;
+}
+
+/* styles for page content layout */
+.content {
+  display: flex;
+  justify-content: center;
+  column-gap: 5rem;
+  padding: 3rem;
+}
+.content div {
+  flex-basis: 20rem;
+}
+.content h3 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+.content img {
+  width: 100%;
+  padding: 0;
+}
+
+/* styles for form on contact page */
+.contact_form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.form_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 1.5rem;
+}
+.form_column div {
+  width: 7rem;
+}
+.contact_form div {
+  flex-basis: 0;
+}
+.contact_form label {
+  padding-right: 1rem;
+}
+
+/* element id styles */
+
+#first_name,
+#last_name,
+#phone_number {
+  width: 7rem;
+}
+#submit_button {
+  width: 5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+
