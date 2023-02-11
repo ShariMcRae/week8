@@ -1,5 +1,4 @@
 /* element styles */
-
 body {
   background-color: #eae5e5;
   font-family: initial;
@@ -15,9 +14,7 @@ li {
   padding-top: 0.5rem;
 }
 
-/* class styles */
-
-/* Common Page Header (banner, site name and main menu) */
+/* Styles used for banner, site name and main menu inside js file. */
 .banner {
   display: flex;
   justify-content: center;
@@ -82,18 +79,15 @@ h1.header {
   justify-content: flex-start;
   row-gap: 1.5rem;
 }
-.form_column div {
-  width: 7rem;
-}
 .contact_form div {
   flex-basis: 0;
 }
 .contact_form label {
   padding-right: 1rem;
+  white-space: nowrap;
 }
 
-/* element id styles */
-
+/* styles using element ids on form */
 #first_name,
 #last_name,
 #phone_number {
